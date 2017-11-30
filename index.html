@@ -2,28 +2,28 @@
 <html lang="en-us">
    <head>
       <meta charset="utf-8">
-      <title>About / Ralph</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
       <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+      <title>About / Ralph</title>
    </head>
    <body>
-      <!--header-->
-      <header id="header">
-         <div class="container">
-            <a href="" id="mainname">RALPH</a>
-            <nav>
-               <a href="index.html">About</a>
-               <a href="portfolio.html">Portfolio</a>
-               <a href="contact.html">Contact</a>
-            </nav>
-         </div>
-      </header>
+      <!-- navbar gets grouped for better mobile display -->
+    <div class="navbar">
+        <div class="name-panel">
+            <p>RALPH</p>
+        </div>
+        <ul class="navbar-right">
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
       <!--body-->
-      <div id="main-container" class="container">
-         <section class="main-section">
-            <h1>About Me</h1>
+      <div class="main-part clearfix">
+            <h1 class="page-header">About Me</h1>
             <img src="assets/images/headshot.jpg" class="auth-image" alt="Ralph Esposito">
             <p><span class="firstcharacter">S</span>ophisticated technologist with a unique mixture of technical and communication skills, keen business acumen and 20+ years of IT experience. Intuitive ability to understand, diagnose, and resolve complex problems affecting the business. <br><br> Delivers the leadership necessary to positively impact the bottom line.</p>
             <p>It’s not my diverse background which includes mechanical, electrical, technical, financial, advertising,
@@ -31,16 +31,18 @@
 			an associate, it’s my ability to leverage technology and recognize the “big-picture” way of utilizing it for an
 			individual or organization. If your problem or project involves technology then I can get the job done.<br><br>
 			“Relationships are the currency of business.” - Brian Basilico</p>
-         </section>
+         </div>
          <!--sidebar-->
-         <section class="sidebar">
-            <div id="connect">
-               <h2>Connect with Me</h2>
+         <div class="sidebar">
+            <div class="sidebar-heading">
+               <h2 class="panel-title">Connect with Me</h2>
+            </div>
+            <div class="sidebar-body">
                <a target ="_blank" href="https://github.com/chiefthinkerupper"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
                <a target ="_blank" href="https://www.linkedin.com/in/ralphesposito/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
                <a target ="_blank" href="https://stackoverflow.com/users/3154592/chiefthinkerupper?tab=profile"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
             </div>
-         </section>
+         </div>
       </div>
       <!--Footer-->
       <footer>
